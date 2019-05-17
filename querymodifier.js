@@ -70,6 +70,7 @@ var btnListener=function() {
     document.location = 'javascript:onEvent("executeSelectedSQL")';
 };
 (function() {
+	alert("loaded");
 	var execBtn = document.getElementById("executeBtn");
 	execBtn.onclick =btnListener;
     var tds = document.getElementsByTagName("td");
